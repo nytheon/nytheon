@@ -12,7 +12,7 @@
 ### 🤖 AI Avatar
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BinaryDev-0100101/hi/refs/heads/main/ai.png" alt="AI Avatar" width="300"/>
+  <img src="https://raw.githubusercontent.com/nytheon/nytheon/refs/heads/main/-dy2e41.jpg" alt="AI Avatar" width="300"/>
 </p>
 
 ---
