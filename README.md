@@ -2,14 +2,14 @@
 <h3 align="center">AI Developer | NLP Enthusiast | Full-Stack Technologist</h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Nytheon&style=flat-square&color=blue" alt="Visitor Count" />
+  <img src="https://komarev.com/ghpvc/?username=nytheon&style=flat-square&color=blue" alt="Visitor Count" />
   <img src="https://img.shields.io/github/stars/Nytheon?style=flat-square&color=yellow" alt="Total Stars" />
   <img src="https://img.shields.io/badge/Title-AI%20Developer-blueviolet?style=flat-square" alt="Professional Title" />
 </p>
 
 ---
 
-### 🤖 My AI Avatar
+### 🤖 AI Avatar
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/BinaryDev-0100101/hi/refs/heads/main/ai.png" alt="AI Avatar" width="300"/>
@@ -41,8 +41,8 @@ I enjoy building from scratch, optimizing existing systems, and constantly learn
 ### 📈 GitHub Insights
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nytheon&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nytheon&layout=compact&theme=tokyonight" alt="Most Used Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=nytheon&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nytheon&layout=compact&theme=tokyonight" alt="Most Used Languages" />
 </p>
 
 ---
