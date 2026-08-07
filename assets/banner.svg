@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.5" stop-color="#bc8cff"/>
+      <stop offset="1" stop-color="#3fb950"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#bc8cff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#bc8cff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#21262d" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <rect width="1200" height="280" fill="url(#grid)"/>
+  <circle cx="1110" cy="30" r="230" fill="url(#glow1)"/>
+  <circle cx="70" cy="260" r="200" fill="url(#glow2)"/>
+
+  <text x="600" y="128" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="76" font-weight="700" fill="url(#accent)" letter-spacing="8">NYTHEON</text>
+  <text x="600" y="176" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="23" fill="#8b949e" letter-spacing="5">AI DEVELOPER &bull; NLP ENGINEER &bull; FULL-STACK</text>
+
+  <rect x="470" y="196" width="260" height="2" rx="1" fill="url(#accent)" opacity="0.8"/>
+  <text x="600" y="236" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="16" fill="#58a6ff" letter-spacing="3" opacity="0.9">github.com/nytheon</text>
+</svg>
