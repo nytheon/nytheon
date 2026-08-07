@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="340" viewBox="0 0 1400 340">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop offset="0.0" stop-color="#0d1117"/><stop offset="1.0" stop-color="#10161f"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0.0" stop-color="#58a6ff"/><stop offset="0.5" stop-color="#bc8cff"/><stop offset="1.0" stop-color="#3fb950"/></linearGradient>
+    <linearGradient id="titlefill" x1="0" y1="0" x2="1" y2="0"><stop offset="0.0" stop-color="#e6edf3"/><stop offset="0.55" stop-color="#ffffff"/><stop offset="1.0" stop-color="#8b949e"/></linearGradient>
+    <radialGradient id="p0" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#58a6ff" stop-opacity="0.9"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="p1" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#bc8cff" stop-opacity="0.9"/><stop offset="1" stop-color="#bc8cff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow1" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#58a6ff" stop-opacity="0.28"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#bc8cff" stop-opacity="0.22"/><stop offset="1" stop-color="#bc8cff" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M 44 0 L 0 0 0 44" fill="none" stroke="#1c2128" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1400" height="340" fill="url(#bg)"/>
+  <rect width="1400" height="340" fill="url(#grid)"/>
+  <circle cx="1280" cy="30" r="260" fill="url(#glow1)"/>
+  <circle cx="120" cy="340" r="240" fill="url(#glow2)"/>
+  <circle cx="723" cy="282" r="3" fill="url(#p0)"><animate attributeName="cy" values="282;236;282" dur="8.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.12;0.7;0.12" dur="8.8s" repeatCount="indefinite"/></circle>
+<circle cx="208" cy="250" r="2" fill="url(#p1)"><animate attributeName="cy" values="250;203;250" dur="8.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.12;0.7;0.12" dur="8.6s" repeatCount="indefinite"/></circle>
+<circle cx="1099" cy="94" r="2" fill="url(#p0)"><animate attributeName="cy" values="94;1;94" dur="6.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.12;0.7;0.12" dur="6.6s" repeatCount="indefinite"/></circle>
+<circle cx="203" cy="101" r="2" fill="url(#p1)"><animate attributeName="cy" values="101;54;101" dur="9.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.12;0.7;0.12" dur="9.9s" repeatCount="indefinite"/></circle>
+<circle cx="1218" cy="71" r="3" fill="url(#p0)"><animate attributeName="cy" values="71;-43;71" dur="10.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.12;0.7;0.12" dur="10.4s" repeatCount="indefinite"/></circle>
+<circle cx="186" cy="187" r="5" fill="url(#p1)"><animate attributeName="cy" values="187;119;187" dur="6.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.12;0.7;0.12" dur="6.3s" repeatCount="indefinite"/></circle>
+<circle cx="155" cy="182" r="3" fill="url(#p0)"><animate attributeName="cy" values="182;124;182" dur="8.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.12;0.7;0.12" dur="8.0s" repeatCount="indefinite"/></circle>
+<circle cx="1167" cy="70" r="4" fill="url(#p1)"><animate attributeName="cy" values="70;7;70" dur="9.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.12;0.7;0.12" dur="9.9s" repeatCount="indefinite"/></circle>
+<circle cx="271" cy="188" r="3" fill="url(#p0)"><animate attributeName="cy" values="188;78;188" dur="8.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.12;0.7;0.12" dur="8.6s" repeatCount="indefinite"/></circle>
+<circle cx="188" cy="184" r="2" fill="url(#p1)"><animate attributeName="cy" values="184;81;184" dur="10.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.12;0.7;0.12" dur="10.3s" repeatCount="indefinite"/></circle>
+<circle cx="1148" cy="149" r="4" fill="url(#p0)"><animate attributeName="cy" values="149;51;149" dur="9.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.12;0.7;0.12" dur="9.3s" repeatCount="indefinite"/></circle>
+<circle cx="800" cy="116" r="3" fill="url(#p1)"><animate attributeName="cy" values="116;45;116" dur="11.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.12;0.7;0.12" dur="11.6s" repeatCount="indefinite"/></circle>
+<circle cx="227" cy="187" r="4" fill="url(#p0)"><animate attributeName="cy" values="187;104;187" dur="9.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.12;0.7;0.12" dur="9.7s" repeatCount="indefinite"/></circle>
+<circle cx="979" cy="113" r="2" fill="url(#p1)"><animate attributeName="cy" values="113;20;113" dur="6.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.12;0.7;0.12" dur="6.8s" repeatCount="indefinite"/></circle>
+<circle cx="397" cy="233" r="4" fill="url(#p0)"><animate attributeName="cy" values="233;131;233" dur="7.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.12;0.7;0.12" dur="7.1s" repeatCount="indefinite"/></circle>
+<circle cx="923" cy="50" r="2" fill="url(#p1)"><animate attributeName="cy" values="50;-63;50" dur="11.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.12;0.7;0.12" dur="11.4s" repeatCount="indefinite"/></circle>
+  <rect x="70" y="52" width="96" height="96" rx="20" fill="#161b22" stroke="url(#accent)" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="1;0.4;1" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="118" y="122" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="48" font-weight="700" fill="url(#accent)">N</text>
+  <text x="196" y="128" font-family="Consolas, Menlo, monospace" font-size="46" font-weight="700" fill="url(#titlefill)" letter-spacing="6">NYTHEON</text>
+  <text x="198" y="176" font-family="Consolas, Menlo, monospace" font-size="20" fill="#8b949e" letter-spacing="5">AI DEVELOPER · NLP ENGINEER · FULL-STACK TECHNOLOGIST</text>
+  <rect x="198" y="200" width="320" height="3" rx="1.5" fill="url(#accent)">
+    <animate attributeName="width" values="120;320;120" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="198" y="270" font-family="Consolas, Menlo, monospace" font-size="17" fill="#58a6ff" opacity="0.85" letter-spacing="2">github.com/nytheon</text>
+  <text x="198" y="300" font-family="Consolas, Menlo, monospace" font-size="14" fill="#3fb950" opacity="0.9" letter-spacing="1">BUILDING INTELLIGENT SYSTEMS</text>
+  <rect x="970" y="280" width="150" height="30" rx="15" fill="#161b22" stroke="#58a6ff" stroke-opacity="0.5"/><circle cx="18" cy="15" r="4" fill="#58a6ff"/><text x="30" y="20" font-family="Consolas, Menlo, monospace" font-size="13" fill="#e6edf3">18 FOLLOWERS</text>
+<rect x="971" y="280" width="109" height="30" rx="15" fill="#161b22" stroke="#bc8cff" stroke-opacity="0.5"/><circle cx="18" cy="15" r="4" fill="#bc8cff"/><text x="30" y="20" font-family="Consolas, Menlo, monospace" font-size="13" fill="#e6edf3">5 REPOS</text>
+<rect x="972" y="280" width="209" height="30" rx="15" fill="#161b22" stroke="#3fb950" stroke-opacity="0.5"/><circle cx="18" cy="15" r="4" fill="#3fb950"/><text x="30" y="20" font-family="Consolas, Menlo, monospace" font-size="13" fill="#e6edf3">4,030 CONTRIBUTIONS</text>
+  <text x="1360" y="324" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="12" fill="#30363d" letter-spacing="2">LAST UPDATED 2026-08-07</text>
+</svg>

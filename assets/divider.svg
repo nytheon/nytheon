@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="60" viewBox="0 0 1400 60">
+  <rect width="1400" height="60" fill="#0d1117"/>
+  <rect x="430" y="29" width="520" height="1" fill="#30363d"/>
+  <circle cx="560" cy="30" r="3" fill="#58a6ff"><animate attributeName="r" values="2;4;2" dur="2.6s" begin="0.0s" repeatCount="indefinite"/></circle>
+<circle cx="595" cy="30" r="3" fill="#bc8cff"><animate attributeName="r" values="2;4;2" dur="2.6s" begin="0.25s" repeatCount="indefinite"/></circle>
+<circle cx="630" cy="30" r="3" fill="#3fb950"><animate attributeName="r" values="2;4;2" dur="2.6s" begin="0.5s" repeatCount="indefinite"/></circle>
+<circle cx="665" cy="30" r="3" fill="#58a6ff"><animate attributeName="r" values="2;4;2" dur="2.6s" begin="0.75s" repeatCount="indefinite"/></circle>
+<circle cx="700" cy="30" r="3" fill="#bc8cff"><animate attributeName="r" values="2;4;2" dur="2.6s" begin="1.0s" repeatCount="indefinite"/></circle>
+<circle cx="735" cy="30" r="3" fill="#3fb950"><animate attributeName="r" values="2;4;2" dur="2.6s" begin="1.25s" repeatCount="indefinite"/></circle>
+<circle cx="770" cy="30" r="3" fill="#58a6ff"><animate attributeName="r" values="2;4;2" dur="2.6s" begin="1.5s" repeatCount="indefinite"/></circle>
+<circle cx="805" cy="30" r="3" fill="#bc8cff"><animate attributeName="r" values="2;4;2" dur="2.6s" begin="1.75s" repeatCount="indefinite"/></circle>
+<circle cx="840" cy="30" r="3" fill="#3fb950"><animate attributeName="r" values="2;4;2" dur="2.6s" begin="2.0s" repeatCount="indefinite"/></circle>
+</svg>
