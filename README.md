@@ -48,13 +48,8 @@ I enjoy building from scratch, optimising existing systems and constantly learni
 
 <div align="center">
 
-  <img src="assets/stats.svg" width="100%" alt="GitHub stats"/>
-
-</div>
-
-<div align="center">
-
-  <img src="assets/langs.svg" width="100%" alt="Top languages"/>
+  <img src="https://github-readme-stats-one.vercel.app/api?username=nytheon&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117&border_radius=16&title_color=58a6ff&icon_color=3fb950" alt="GitHub stats"/>
+  <img src="https://github-readme-stats-one.vercel.app/api/top-langs/?username=nytheon&layout=donut-vertical&langs_count=8&theme=github_dark&hide_border=true&bg_color=0d1117&border_radius=16" alt="Top languages"/>
 
 </div>
 

@@ -139,6 +139,8 @@ class ProfileConfig:
     )
 
     # External live-service knobs.
+    stats_theme: str = "github_dark"
+    language_layout: str = "donut-vertical"
     streak_theme: str = "github-dark-blue"
     graph_theme: str = "react-dark"
 
@@ -172,6 +174,8 @@ class ProfileConfig:
             "founding_year": self.founding_year,
             "typing_lines": list(self.typing_lines),
             "tech_icons": list(self.tech_icons),
+            "stats_theme": self.stats_theme,
+            "language_layout": self.language_layout,
             "streak_theme": self.streak_theme,
             "graph_theme": self.graph_theme,
         }
