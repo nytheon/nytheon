@@ -46,16 +46,16 @@ I enjoy building from scratch, optimising existing systems and constantly learni
 
 ### GitHub Stats
 
-<div align="center">
+<div align="center" style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center; align-items:center;">
 
-  <img src="https://github-readme-stats-one.vercel.app/api?username=nytheon&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117&border_radius=16&title_color=58a6ff&icon_color=3fb950" alt="GitHub stats"/>
-  <img src="https://github-readme-stats-one.vercel.app/api/top-langs/?username=nytheon&layout=donut-vertical&langs_count=8&theme=github_dark&hide_border=true&bg_color=0d1117&border_radius=16" alt="Top languages"/>
+  <img height="195" src="https://github-readme-stats-one.vercel.app/api?username=nytheon&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117&border_radius=16&title_color=58a6ff&icon_color=3fb950" alt="GitHub stats"/>
+  <img height="195" src="https://github-readme-stats-one.vercel.app/api/top-langs/?username=nytheon&layout=compact&langs_count=6&theme=github_dark&hide_border=true&bg_color=0d1117&border_radius=16" alt="Top languages"/>
 
 </div>
 
 <div align="center">
 
-  <img src="https://streak-stats.demolab.com/?user=nytheon&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=3FB950&currStreakLabel=E6EDF3&sideLabels=8B949E&dates=8B949E&currStreakNum=E6EDF3&sideNums=E6EDF3" alt="GitHub streak"/>
+  <img height="195" src="https://streak-stats.demolab.com/?user=nytheon&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=3FB950&currStreakLabel=E6EDF3&sideLabels=8B949E&dates=8B949E&currStreakNum=E6EDF3&sideNums=E6EDF3" alt="GitHub streak"/>
 
 </div>
 

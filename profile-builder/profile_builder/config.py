@@ -140,7 +140,7 @@ class ProfileConfig:
 
     # External live-service knobs.
     stats_theme: str = "github_dark"
-    language_layout: str = "donut-vertical"
+    language_layout: str = "compact"
     streak_theme: str = "github-dark-blue"
     graph_theme: str = "react-dark"
 

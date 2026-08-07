@@ -82,7 +82,7 @@ def stats_url(cfg: ProfileConfig) -> str:
 def top_langs_url(cfg: ProfileConfig) -> str:
     return (
         f"https://{GH_README_STATS_HOST}/api/top-langs/?username="
-        f"{cfg.username}&layout={cfg.language_layout}&langs_count=8"
+        f"{cfg.username}&layout={cfg.language_layout}&langs_count=6"
         f"&theme={cfg.stats_theme}&hide_border=true&bg_color=0d1117&border_radius=16"
     )
 
@@ -170,16 +170,16 @@ def _stats(cfg: ProfileConfig) -> List[str]:
         "",
         "### GitHub Stats",
         "",
-        '<div align="center">',
+        '<div align="center" style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center; align-items:center;">',
         "",
-        f'  <img src="{stats_url(cfg)}" alt="GitHub stats"/>',
-        f'  <img src="{top_langs_url(cfg)}" alt="Top languages"/>',
+        f'  <img height="195" src="{stats_url(cfg)}" alt="GitHub stats"/>',
+        f'  <img height="195" src="{top_langs_url(cfg)}" alt="Top languages"/>',
         "",
         "</div>",
         "",
         '<div align="center">',
         "",
-        f'  <img src="{streak_url(cfg)}" alt="GitHub streak"/>',
+        f'  <img height="195" src="{streak_url(cfg)}" alt="GitHub streak"/>',
         "",
         "</div>",
         "",

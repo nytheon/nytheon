@@ -153,6 +153,14 @@ class TestReadmeBuilder(unittest.TestCase):
         self.assertIn("github-readme-stats-one.vercel.app/api", content)
         self.assertIn("/api/top-langs/", content)
 
+    def test_stat_cards_are_aligned(self):
+        content = readme_builder.build_readme(self.cfg, self.data)
+        # both cards share the same rendered height and sit in a centered
+        # flex row so they align perfectly side by side.
+        self.assertIn('style="display:flex', content)
+        self.assertIn('gap:16px', content)
+        self.assertIn('<img height="195" src="', content)
+
     def test_no_unreliable_services(self):
         # The canonical github-readme-stats.vercel.app deployment and the
         # trophy service are frequently suspended; the README must not use them.
