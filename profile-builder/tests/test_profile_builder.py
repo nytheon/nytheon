@@ -141,18 +141,40 @@ class TestReadmeBuilder(unittest.TestCase):
 
     def test_uses_live_services(self):
         content = readme_builder.build_readme(self.cfg, self.data)
-        self.assertIn("github-readme-stats.vercel.app", content)
+        self.assertNotIn("github-readme-stats.vercel.app", content)
         self.assertIn("skillicons.dev", content)
         self.assertIn("streak-stats.demolab.com", content)
         self.assertIn("github-readme-activity-graph.vercel.app", content)
         self.assertIn("img.shields.io", content)
+        self.assertIn("komarev.com", content)
+        self.assertIn("readme-typing-svg", content)
 
-    def test_only_local_asset_is_banner(self):
+    def test_stats_and_langs_are_local_assets(self):
         content = readme_builder.build_readme(self.cfg, self.data)
-        self.assertIn('src="assets/banner.svg"', content)
+        self.assertIn('src="assets/stats.svg"', content)
+        self.assertIn('src="assets/langs.svg"', content)
+
+    def test_no_unreliable_services(self):
+        # github-readme-stats and github-profile-trophy are frequently
+        # suspended; the README must not depend on them.
+        content = readme_builder.build_readme(self.cfg, self.data)
+        self.assertNotIn("github-readme-stats", content)
+        self.assertNotIn("github-profile-trophy", content)
+
+    def test_local_assets_are_generated(self):
+        from tempfile import TemporaryDirectory
+        import os
+        with TemporaryDirectory() as root:
+            written = readme_builder.write_assets(self.cfg, self.data, root)
+            written_names = [os.path.basename(p) for p in written]
+            for asset in ("banner.svg", "stats.svg", "langs.svg"):
+                self.assertIn(asset, written_names)
+                with open(os.path.join(root, "assets", asset),
+                          encoding="utf-8") as fh:
+                    xml.dom.minidom.parseString(fh.read())
         # no other local static assets should be referenced
-        for stale in ("stats.svg", "langs.svg", "tech.svg",
-                      "activity.svg", "contact.svg"):
+        content = readme_builder.build_readme(self.cfg, self.data)
+        for stale in ("tech.svg", "activity.svg", "contact.svg"):
             self.assertNotIn(f"assets/{stale}", content)
 
     def test_contains_all_sections(self):

@@ -48,8 +48,13 @@ I enjoy building from scratch, optimising existing systems and constantly learni
 
 <div align="center">
 
-  <img src="https://github-readme-stats.vercel.app/api?username=nytheon&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nytheon&layout=donut-vertical&langs_count=8&theme=github_dark&hide_border=true&bg_color=0d1117" alt="Top languages"/>
+  <img src="assets/stats.svg" width="100%" alt="GitHub stats"/>
+
+</div>
+
+<div align="center">
+
+  <img src="assets/langs.svg" width="100%" alt="Top languages"/>
 
 </div>
 
@@ -62,12 +67,6 @@ I enjoy building from scratch, optimising existing systems and constantly learni
 <div align="center">
 
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=nytheon&theme=react-dark&bg_color=0d1117&hide_border=true&area=true&custom_title=Activity" alt="Activity graph"/>
-
-</div>
-
-<div align="center">
-
-  <img src="https://github-profile-trophy.vercel.app/?username=nytheon&theme=onedark&no-bg=true&no-frame=true&row=1&column=6" alt="GitHub trophies"/>
 
 </div>
 

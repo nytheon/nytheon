@@ -139,11 +139,8 @@ class ProfileConfig:
     )
 
     # External live-service knobs.
-    stats_theme: str = "github_dark"
     streak_theme: str = "github-dark-blue"
     graph_theme: str = "react-dark"
-    trophy_theme: str = "onedark"
-    language_layout: str = "donut-vertical"
 
     # ------------------------------------------------------------------
     # Derived helpers.
@@ -175,8 +172,6 @@ class ProfileConfig:
             "founding_year": self.founding_year,
             "typing_lines": list(self.typing_lines),
             "tech_icons": list(self.tech_icons),
-            "stats_theme": self.stats_theme,
             "streak_theme": self.streak_theme,
             "graph_theme": self.graph_theme,
-            "trophy_theme": self.trophy_theme,
         }
